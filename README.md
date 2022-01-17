@@ -1,6 +1,6 @@
 # Vacuum-Run
-c21026 與那覇帆風
-チーム制作 「Vacuum Run」
+c21026 與那覇帆風  
+チーム制作「Vacuum Run」
 
 ## ファイル構成
 Unity
