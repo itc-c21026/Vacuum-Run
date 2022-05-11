@@ -45,4 +45,6 @@ Unity 2020.3.4f1
 ・比嘉愛斗 / デザイナー
 
 ## ゲームスクリーンショット
-写真
+https://github.com/itc-c21026/Vacuum-Run/issues/new  
+https://user-images.githubusercontent.com/84373723/167850055-4e32fef6-008a-4e6a-8716-e5b31a990bf8.png  
+https://user-images.githubusercontent.com/84373723/167850066-a06e908a-7a2b-478b-8e73-434bc0ca2a7c.png
