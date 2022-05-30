@@ -22,7 +22,8 @@ C#
 ・[HokazeScripts](https://github.com/itc-c21026/Vacuum-Run/tree/main/Scripts/HokazeScripts)
 
 ## 主なプログラム  
-
+・[UI](https://github.com/itc-c21026/Vacuum-Run/blob/main/Scripts/HokazeScripts/UI.cs)  
+・[リザルト画面](https://github.com/itc-c21026/Vacuum-Run/blob/main/Scripts/HokazeScripts/Result.cs)
 
 ## ゲームストーリー
 20XX年、化学技術の発展により生まれた国際宇宙ステーション。  
