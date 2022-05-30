@@ -4,8 +4,7 @@ c21026 與那覇帆風
 
 ## ファイル構成
 ・[Unityデータ_Scripts](Scripts)  
-・[Unityデータ_others](others)  
-ビルド
+・[Unityデータ_others](others)
 
 ## 概要
 
@@ -13,7 +12,7 @@ c21026 與那覇帆風
 Runゲーム
 
 ## プラットフォーム
-Android
+・[Android](VacuumRun.apk)
 
 ## 使用言語
 C#
