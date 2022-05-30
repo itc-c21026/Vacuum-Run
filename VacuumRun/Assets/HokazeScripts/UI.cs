@@ -37,10 +37,10 @@ public class UI : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
 
-        // [“d—Ê‚ğMAX‚©‚çƒXƒ^[ƒg
+        // å……é›»é‡ã‚’MAXã‹ã‚‰ã‚¹ã‚¿ãƒ¼ãƒˆ
         HPslider.value = 1;
 
-        //ƒXƒgƒbƒN‚Æ’B¬—¦‚ğŠJn‚É0‚É
+        //ã‚¹ãƒˆãƒƒã‚¯ã¨é”æˆç‡ã‚’é–‹å§‹æ™‚ã«0ã«
         i = 0;
         d = 0;
 
@@ -62,22 +62,22 @@ public class UI : MonoBehaviour
 
         Score = d;
         
-        // ‚²‚İ—Ê‚ğXV
+        // ã”ã¿é‡ã‚’æ›´æ–°
         int score = Ascore();
-        GomiText.text = "‚²‚İ—Ê : " + i + "“_";
+        GomiText.text = "ã”ã¿é‡ : " + i + "ç‚¹";
 
-        // ƒSƒ~‚ğƒXƒ^ƒbƒN‚µ‚Ä‚¢‚é”‚ª5ŒÂˆÈã‚Ì
+        // ã‚´ãƒŸã‚’ã‚¹ã‚¿ãƒƒã‚¯ã—ã¦ã„ã‚‹æ•°ãŒ5å€‹ä»¥ä¸Šã®æ™‚
         if (i >= 5)
         {
-            KeikokuText.text = "ƒSƒ~‚ğÌ‚Ä‚æ‚¤";
+            KeikokuText.text = "ã‚´ãƒŸã‚’æ¨ã¦ã‚ˆã†";
 
-        // ƒSƒ~‚ğƒXƒ^ƒbƒN‚µ‚Ä‚¢‚é”‚ª1ŒÂˆÈã‚Ì
+        // ã‚´ãƒŸã‚’ã‚¹ã‚¿ãƒƒã‚¯ã—ã¦ã„ã‚‹æ•°ãŒ1å€‹ä»¥ä¸Šã®æ™‚
         }else if(i <= 1)
         {
             KeikokuText.text = " ";
         }
 
-        // [“d—Ê‚ğŒ¸‚ç‚·
+        // å……é›»é‡ã‚’æ¸›ã‚‰ã™
         a -= Time.deltaTime * 2.0f;
         j = Mathf.Floor(a);
         HPslider.value = j / maxHp;
@@ -88,11 +88,11 @@ public class UI : MonoBehaviour
             SceneManager.LoadScene("Result");
         }
 
-        // ‘|œ—¦
+        // æƒé™¤ç‡
         int Clear = AreaClear();
-        GoalText.text = "‘|œ—¦ : " + d + "%";
+        GoalText.text = "æƒé™¤ç‡ : " + d + "%";
 
-        //ƒuƒ‰ƒbƒNƒz[ƒ‹‚ÌƒJƒEƒ“ƒg
+        //ãƒ–ãƒ©ãƒƒã‚¯ãƒ›ãƒ¼ãƒ«ã®ã‚«ã‚¦ãƒ³ãƒˆ
         blackHolePanel.UpdateBlackHole(blackHole.BlackHoleCount());
 
     }
@@ -104,58 +104,53 @@ public class UI : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        //ˆ—ƒ|ƒCƒ“ƒgÚG‚©‚ÂƒSƒ~‚ÌƒXƒgƒbƒN‚ª‚ ‚é‚Æ‚«‚¾‚¯‰¹–Â‚ç‚·
+        //å‡¦ç†ãƒã‚¤ãƒ³ãƒˆæ¥è§¦ã‹ã¤ã‚´ãƒŸã®ã‚¹ãƒˆãƒƒã‚¯ãŒã‚ã‚‹ã¨ãã ã‘éŸ³é³´ã‚‰ã™
         if (other.gameObject.tag == "ShoriPoint" && i >= 1)
         {
             audioSource.PlayOneShot(sound2);
         }
 
-        // ƒSƒ~ƒ^ƒO‚ÉÚG‚µ‚½‚Æ‚«
+        // ã‚´ãƒŸã‚¿ã‚°ã«æ¥è§¦ã—ãŸã¨ã
         if (other.gameObject.tag == "Gomi")
         {
-            // ‚²‚İ—Ê‚ª1‘‚¦‚é
+            // ã”ã¿é‡ãŒ1å¢—ãˆã‚‹
             i += 1;
 
             audioSource.PlayOneShot(sound);
         }
 
-        // ˆ—ƒ|ƒCƒ“ƒgƒ^ƒO‚ÉÚG‚µ‚½
+        // å‡¦ç†ãƒã‚¤ãƒ³ãƒˆã‚¿ã‚°ã«æ¥è§¦ã—ãŸæ™‚
         else if (other.gameObject.tag == "ShoriPoint")
         {
-            // i’»—¦‚ÌŒvZ
+            // é€²æ—ç‡ã®è¨ˆç®—
             c = c + i;
             c = c * 2;
 
-            // ƒSƒ~ƒXƒ^ƒbƒN‚ğ‰Šú‰»
+            // ã‚´ãƒŸã‚¹ã‚¿ãƒƒã‚¯ã‚’åˆæœŸåŒ–
             i = 0;
 
-            // i’»—¦
+            // é€²æ—ç‡
             d = d + c;
 
-            // i’»—¦‚ÌŒvZ‚ğ‰Šú‰»
+            // é€²æ—ç‡ã®è¨ˆç®—ã‚’åˆæœŸåŒ–
             c = 0;
         }
         else if( other.gameObject.tag == "Heal")
         {
             audioSource.PlayOneShot(sound4);
 
-            // Healƒ^ƒO‚ÉÚG‚·‚é‚Æ[“d—Ê‚ª5‰ñ•œ‚·‚é
+            // Healã‚¿ã‚°ã«æ¥è§¦ã™ã‚‹ã¨å……é›»é‡ãŒ5å›å¾©ã™ã‚‹
             a += 5;
         }
         else if(other.gameObject.tag == "Syougaibutu")
         {
-            //Syougaibutuƒ^ƒO‚ÉÚG‚·‚é‚ÆƒSƒ~‚ğ‚·‚×‚Ä“f‚«o‚·(i‚ğ0‚É)
+            //Syougaibutuã‚¿ã‚°ã«æ¥è§¦ã™ã‚‹ã¨ã‚´ãƒŸã‚’ã™ã¹ã¦åãå‡ºã™(iã‚’0ã«)
             audioSource.PlayOneShot(sound5);
             i = 0;
         }
-        //ƒuƒ‰ƒbƒNƒz[ƒ‹‚Ì‰ñ•œ‚­‚ñ‚Í¡‚Í‚Æ‚è‚ ‚¦‚¸‚È‚©‚Á‚½‚±‚Æ‚É
-        /*else if(other.gameObject.tag == "BlackHoleHeal")
-        {
-            cnt++;
-        }*/
     }
 
-    // ˆÈ‰º‚ÍŠÖ”
+    // ä»¥ä¸‹ã¯é–¢æ•°
     public static int Ascore()
     {
         return (int)i;
