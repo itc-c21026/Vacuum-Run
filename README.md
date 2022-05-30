@@ -19,7 +19,7 @@ Android
 C#
 
 ## 担当プログラムファイル
-・[HokazeScripts](HokazeScripts)
+・[HokazeScripts](https://github.com/itc-c21026/Vacuum-Run/tree/main/Scripts/HokazeScripts)
 
 ## 主なプログラム  
 
