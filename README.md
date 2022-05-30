@@ -11,17 +11,17 @@ c21026 與那覇帆風
 Runゲーム
 
 ## プラットフォーム
-・[Android](VacuumRun.apk)
+・[Android](https://github.com/itc-c21026/Vacuum-Run/blob/main/VacuumRun/VacuumRun.apk)
 
 ## 使用言語
 C#
 
 ## 担当プログラムファイル
-・[HokazeScripts](https://github.com/itc-c21026/Vacuum-Run/tree/main/Scripts/HokazeScripts)
+・[HokazeScripts](https://github.com/itc-c21026/Vacuum-Run/tree/main/VacuumRun/Assets/HokazeScripts)
 
 ## 主なプログラム  
-・[UI](https://github.com/itc-c21026/Vacuum-Run/blob/main/Scripts/HokazeScripts/UI.cs)  
-・[リザルト画面](https://github.com/itc-c21026/Vacuum-Run/blob/main/Scripts/HokazeScripts/Result.cs)
+・[UI](https://github.com/itc-c21026/Vacuum-Run/blob/main/VacuumRun/Assets/HokazeScripts/UI.cs)  
+・[リザルト画面](https://github.com/itc-c21026/Vacuum-Run/blob/main/VacuumRun/Assets/HokazeScripts/Result.cs)
 
 ## ゲームストーリー
 20XX年、化学技術の発展により生まれた国際宇宙ステーション。  
