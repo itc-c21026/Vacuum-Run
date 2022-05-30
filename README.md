@@ -3,7 +3,7 @@ c21026 與那覇帆風
 チーム制作「Vacuum Run」
 
 ## ファイル構成
-・[Unityデータ_scripts](Scripts)
+・[Unityデータ_scripts](Scripts)  
 ・[Unityデータ_others](others)  
 ビルド
 
