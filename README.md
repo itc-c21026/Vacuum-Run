@@ -3,6 +3,7 @@ c21026 與那覇帆風
 チーム制作「Vacuum Run」
 
 ## ファイル構成
+・[Unityデータ_scripts](Scripts)  
 ・[Unityデータ_others](others)  
 ビルド
 
@@ -18,7 +19,10 @@ Android
 C#
 
 ## 担当プログラムファイル
-UI
+・[HokazeScripts](HokazeScripts)
+
+## 主なプログラム  
+
 
 ## ゲームストーリー
 20XX年、化学技術の発展により生まれた国際宇宙ステーション。  
