@@ -1,6 +1,10 @@
 # Vacuum-Run
-c21026 與那覇帆風  
 チーム制作「Vacuum Run」
+
+## メンバー/役割
+・與那覇帆風 / プログラマ  
+・花城清大 / プランナー&プログラマ  
+・比嘉愛斗 / デザイナー
 
 ## ファイル構成
 ・[Unityデータ](VacuumRun)  
@@ -45,11 +49,6 @@ Unity 2020.3.4f1
 
 ## 制作期間
 2ヶ月
-
-## メンバー/役割
-・與那覇帆風 / プログラマ  
-・花城清大 / プランナー&プログラマ  
-・比嘉愛斗 / デザイナー
 
 ## ゲームスクリーンショット
 ![CatchCopy](https://github.com/itc-c21026/Vacuum-Run/blob/main/ScreenShot/CatchCopy.png)  
