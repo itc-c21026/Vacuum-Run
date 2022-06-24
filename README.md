@@ -15,7 +15,7 @@
 Runゲーム
 
 ## プラットフォーム
-・[Android](https://github.com/itc-c21026/Vacuum-Run/blob/main/VacuumRun/VacuumRun.apk)
+・[Android](https://github.com/itc-c21026/Vacuum-Run/blob/main/VacuumRun/VacuumRun.apk)  
 ・[PC](https://github.com/itc-c21026/Vacuum-Run/tree/main/VacuumRun/PC_Build)
 
 ## 使用言語
